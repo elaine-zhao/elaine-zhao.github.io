@@ -1,5 +1,15 @@
 $(document).ready(function() {
 
+	// $("#note").hide();
+
+	$("#username").hover(function(){
+		$("#note").css("display", "block");
+	});
+
+	$("#editable-screen").click(function() {
+		$("#note").css("display", "none");
+	})
+
     $("#login-button").hover(function() {
         var password = $("#password").val();
         if (password == "yaywdd") {

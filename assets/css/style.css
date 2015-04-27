@@ -49,6 +49,22 @@ input:focus::-webkit-input-placeholder {
 	top: 380px;
 }
 
+#note {
+	position: absolute;
+	top: 300px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 310px;
+	height: 60px;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 5px;
+	display: none;
+
+}
+
 #password {
 	width: 240px;
 	top: 420px;
